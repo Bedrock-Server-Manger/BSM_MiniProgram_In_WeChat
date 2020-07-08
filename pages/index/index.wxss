@@ -1,0 +1,51 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 5px;
+  font-size: 35px;
+  background-color: blanchedalmond;
+}
+
+.userinput {
+  margin-top: 200px;
+  background-color: aqua;
+  display: flex;
+  flex-flow: row;
+}
+
+.userlogin {
+  margin-top: 150px;
+}
+
+.menu {
+  background-color: aqua;
+  margin-top: 15px;
+}
+
+.properties {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  color: #aaa;
+}
+
+.propertiesi {
+  display: flex;
+  flex-direction: row-reverse;  
+}

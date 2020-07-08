@@ -1,0 +1,9 @@
+<!--pages/player/player.wxml-->
+<view class="container">
+  <view wx:if="{{target == 'asd'}}">
+  hello
+  </view>
+  <view wx:elif="{{target == 'dsa'}}">
+  world
+  </view>
+</view>
